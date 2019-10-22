@@ -1,8 +1,28 @@
-.rectangle{
-	width:400px;
-	height:200px;
+.rectangle1{
+	width:300px;
+    height:200px;
+    position: absolute;
+    border-style:solid;
+    border-color: green;
     background:rgb(139, 7, 7);
     margin-top:27px;
-    margin-left: 153px;
-    border-radius: 3px;
+    margin-left: 400px;
+    border-top-left-radius: 150px 100px;
+    border-top-right-radius: 150px 100px;
+    border-bottom-left-radius: 150px 100px;
+    border-bottom-right-radius: 150px 100px;
+}
+.rectangle2:first-child{
+	width:300px;
+    height:200px;
+    position: absolute;
+    border-style:solid;
+    border-color: green;
+    background:rgb(139, 7, 7);
+    margin-top:27px;
+    margin-right: 10px;
+    border-top-left-radius: 150px 100px;
+    border-top-right-radius: 150px 100px;
+    border-bottom-left-radius: 150px 100px;
+    border-bottom-right-radius: 150px 100px;
 }
